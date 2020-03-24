@@ -3,4 +3,4 @@
 ### Examples
 
 ```
-f
+fu
