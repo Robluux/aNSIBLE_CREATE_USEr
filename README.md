@@ -3,4 +3,4 @@
 ### Examples
 
 ```
-func m
+func ma
