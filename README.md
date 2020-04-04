@@ -3,4 +3,4 @@
 ### Examples
 
 ```
-func mai
+func main
