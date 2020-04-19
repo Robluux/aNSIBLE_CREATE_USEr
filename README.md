@@ -4,4 +4,4 @@
 
 ```
 func main() {
-	opts := a
+	opts := al
