@@ -4,4 +4,4 @@
 
 ```
 func main() {
-	opts := alpha.Options
+	opts := alpha.Options{
