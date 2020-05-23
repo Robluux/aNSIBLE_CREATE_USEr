@@ -5,4 +5,4 @@
 ```
 func main() {
 	opts := alpha.Options{
-			Function:   
+			Function:   "T
