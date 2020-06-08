@@ -5,4 +5,4 @@
 ```
 func main() {
 	opts := alpha.Options{
-			Function:   "TIME_SERI
+			Function:   "TIME_SERIE
