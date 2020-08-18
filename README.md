@@ -8,3 +8,4 @@ func main() {
 			Function:   "TIME_SERIES_DAILY",
 			Symbol:     val,
 			OutputSize: "compact",
+
