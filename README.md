@@ -9,3 +9,4 @@ func main() {
 			Symbol:     val,
 			OutputSize: "compact",
 
+	
