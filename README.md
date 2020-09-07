@@ -9,4 +9,4 @@ func main() {
 			Symbol:     val,
 			OutputSize: "compact",
 
-			APIKey: os.G
+			APIKey: os.Ge
