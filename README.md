@@ -9,4 +9,4 @@ func main() {
 			Symbol:     val,
 			OutputSize: "compact",
 
-			APIKey: os.Getenv("API_TOKE
+			APIKey: os.Getenv("API_TOKEN
