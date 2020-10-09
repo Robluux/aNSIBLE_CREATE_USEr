@@ -10,3 +10,4 @@ func main() {
 			OutputSize: "compact",
 
 			APIKey: os.Getenv("API_TOKEN"),
+		
