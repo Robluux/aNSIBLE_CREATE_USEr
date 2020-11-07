@@ -11,4 +11,4 @@ func main() {
 
 			APIKey: os.Getenv("API_TOKEN"),
 		}
-		client := alpha.New
+		client := alpha.NewC
