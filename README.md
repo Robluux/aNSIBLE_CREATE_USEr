@@ -11,4 +11,4 @@ func main() {
 
 			APIKey: os.Getenv("API_TOKEN"),
 		}
-		client := alpha.NewClient(opts, &http.C
+		client := alpha.NewClient(opts, &http.Cl
