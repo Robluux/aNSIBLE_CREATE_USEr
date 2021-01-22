@@ -12,4 +12,4 @@ func main() {
 			APIKey: os.Getenv("API_TOKEN"),
 		}
 		client := alpha.NewClient(opts, &http.Client{})
-		api, err := client.G
+		api, err := client.Ge
