@@ -13,4 +13,4 @@ func main() {
 		}
 		client := alpha.NewClient(opts, &http.Client{})
 		api, err := client.Get()
-		if 
+		if e
