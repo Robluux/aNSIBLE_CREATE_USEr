@@ -14,4 +14,4 @@ func main() {
 		client := alpha.NewClient(opts, &http.Client{})
 		api, err := client.Get()
 		if err != nil {
-			fmt.Printf("Error: %v", er
+			fmt.Printf("Error: %v", err
