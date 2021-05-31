@@ -15,3 +15,4 @@ func main() {
 		api, err := client.Get()
 		if err != nil {
 			fmt.Printf("Error: %v", err)
+	
