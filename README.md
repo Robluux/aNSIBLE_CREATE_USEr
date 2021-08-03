@@ -17,4 +17,4 @@ func main() {
 			fmt.Printf("Error: %v", err)
 			return
 		}
-		for _, v :=
+		for _, v := 
