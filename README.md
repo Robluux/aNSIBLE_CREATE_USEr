@@ -19,4 +19,4 @@ func main() {
 		}
 		for _, v := range api.TimeSeries {
 			fmt.Printf("Symbol: %v\n", val)
-	
+		
