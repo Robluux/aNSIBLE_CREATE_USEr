@@ -21,4 +21,4 @@ func main() {
 			fmt.Printf("Symbol: %v\n", val)
 			fmt.Printf("Date: %v\n", v.Date)
 			fmt.Printf("High: %v\n", v.High)
-			fmt.Printf("L
+			fmt.Printf("Lo
