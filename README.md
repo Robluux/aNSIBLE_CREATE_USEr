@@ -22,4 +22,4 @@ func main() {
 			fmt.Printf("Date: %v\n", v.Date)
 			fmt.Printf("High: %v\n", v.High)
 			fmt.Printf("Low: %v\n", v.Low)
-			fmt.Printf("
+			fmt.Printf("C
