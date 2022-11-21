@@ -24,4 +24,4 @@ func main() {
 			fmt.Printf("Low: %v\n", v.Low)
 			fmt.Printf("Close: %v\n", v.Close)
 			fmt.Printf("Open: %v\n", v.Open)
-			fmt.Printf("Volume: %v\n\n", v
+			fmt.Printf("Volume: %v\n\n", v.V
