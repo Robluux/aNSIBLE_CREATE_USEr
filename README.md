@@ -26,3 +26,4 @@ func main() {
 			fmt.Printf("Open: %v\n", v.Open)
 			fmt.Printf("Volume: %v\n\n", v.Volume)
 		}
+}
