@@ -1,3 +1,3 @@
 package alpha
 
-// APIURL the bas
+// APIURL the base
