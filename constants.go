@@ -1,4 +1,4 @@
 package alpha
 
 // APIURL the base API url
-const APIURL = "https:
+const APIURL = "https://w
