@@ -6,3 +6,6 @@ import (
 	"fmt"
 	"io/ioutil"
 	"net/http"
+
+	"github.com/bradfitz/slice"
+)
