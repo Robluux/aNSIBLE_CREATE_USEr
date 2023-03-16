@@ -9,3 +9,5 @@ import (
 
 	"github.com/bradfitz/slice"
 )
+
+// NewClient returns a new Alpha API Client
