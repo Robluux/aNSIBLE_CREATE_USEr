@@ -12,3 +12,5 @@ import (
 
 // NewClient returns a new Alpha API Client
 func NewClient(opts Options, client *http.Client) Client {
+	c := Client{}
+	c.base = APIURL
