@@ -16,3 +16,4 @@ func NewClient(opts Options, client *http.Client) Client {
 	c.base = APIURL
 	c.Options = opts
 	c.Client = client
+	return c
