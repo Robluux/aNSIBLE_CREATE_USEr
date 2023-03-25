@@ -18,3 +18,5 @@ func NewClient(opts Options, client *http.Client) Client {
 	c.Client = client
 	return c
 }
+
+// Get gets API endpoint based on options passed
