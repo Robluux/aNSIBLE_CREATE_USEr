@@ -17,3 +17,4 @@ func NewClient(opts Options, client *http.Client) Client {
 	c.Options = opts
 	c.Client = client
 	return c
+}
