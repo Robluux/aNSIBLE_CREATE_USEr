@@ -22,3 +22,4 @@ func NewClient(opts Options, client *http.Client) Client {
 // Get gets API endpoint based on options passed
 func (c Client) Get() (ResponsePayload, error) {
 	var pload APIPayload
+	rpload := ResponsePayload{}
