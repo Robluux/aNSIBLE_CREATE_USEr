@@ -27,3 +27,5 @@ func (c Client) Get() (ResponsePayload, error) {
 	if err != nil {
 		return rpload, err
 	}
+	b, err := ioutil.ReadAll(resp.Body)
+	defer resp.Body.Close()
