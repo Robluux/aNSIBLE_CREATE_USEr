@@ -23,3 +23,5 @@ func NewClient(opts Options, client *http.Client) Client {
 func (c Client) Get() (ResponsePayload, error) {
 	var pload APIPayload
 	rpload := ResponsePayload{}
+	resp, err := c.Client.Get(fmt.Sprintf("%s?function=%s&symbol=%s&outputsize=%s&apikey=%s", APIURL, c.Options.Function, c.Options.Symbol, c.Options.OutputSize, c.Options.APIKey))
+	if err != nil {
