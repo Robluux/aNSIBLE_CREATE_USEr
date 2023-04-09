@@ -29,3 +29,4 @@ func (c Client) Get() (ResponsePayload, error) {
 	}
 	b, err := ioutil.ReadAll(resp.Body)
 	defer resp.Body.Close()
+	if err != nil {
