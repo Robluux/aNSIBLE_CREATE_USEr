@@ -31,3 +31,4 @@ func (c Client) Get() (ResponsePayload, error) {
 	defer resp.Body.Close()
 	if err != nil {
 		return rpload, err
+	}
