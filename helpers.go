@@ -32,3 +32,4 @@ func (c Client) Get() (ResponsePayload, error) {
 	if err != nil {
 		return rpload, err
 	}
+	err = json.Unmarshal(b, &pload)
