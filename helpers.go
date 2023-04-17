@@ -37,3 +37,4 @@ func (c Client) Get() (ResponsePayload, error) {
 		return rpload, err
 	}
 	rpload.MetaData = pload.MetaData
+	for k, v := range pload.TimeSeries {
