@@ -36,3 +36,4 @@ func (c Client) Get() (ResponsePayload, error) {
 	if err != nil {
 		return rpload, err
 	}
+	rpload.MetaData = pload.MetaData
