@@ -40,3 +40,5 @@ func (c Client) Get() (ResponsePayload, error) {
 	for k, v := range pload.TimeSeries {
 		v.Date = k
 		rpload.TimeSeries = append(rpload.TimeSeries, v)
+
+	}
