@@ -44,3 +44,4 @@ func (c Client) Get() (ResponsePayload, error) {
 	}
 	slice.Sort(rpload.TimeSeries[:], func(i, j int) bool {
 		return rpload.TimeSeries[i].Date < rpload.TimeSeries[j].Date
+	})
