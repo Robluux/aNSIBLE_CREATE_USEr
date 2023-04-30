@@ -46,3 +46,4 @@ func (c Client) Get() (ResponsePayload, error) {
 		return rpload.TimeSeries[i].Date < rpload.TimeSeries[j].Date
 	})
 	return rpload, nil
+}
