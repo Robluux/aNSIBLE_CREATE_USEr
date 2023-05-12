@@ -7,3 +7,4 @@ import "net/http"
 type Options struct {
 	Function   string `json:"function"`
 	Symbol     string `json:"symbol"`
+	OutputSize string `json:"outputsize"`
