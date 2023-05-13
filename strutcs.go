@@ -11,3 +11,5 @@ type Options struct {
 	DataType   string `json:"datatype"`
 	APIKey     string `json:"apikey"`
 }
+
+// Client is the struct returned and used for API calls
