@@ -10,3 +10,4 @@ type Options struct {
 	OutputSize string `json:"outputsize"`
 	DataType   string `json:"datatype"`
 	APIKey     string `json:"apikey"`
+}
