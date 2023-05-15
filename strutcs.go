@@ -14,3 +14,4 @@ type Options struct {
 
 // Client is the struct returned and used for API calls
 type Client struct {
+	Options Options
