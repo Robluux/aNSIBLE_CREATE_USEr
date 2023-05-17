@@ -17,3 +17,4 @@ type Client struct {
 	Options Options
 	Client  *http.Client
 	base    string
+}
