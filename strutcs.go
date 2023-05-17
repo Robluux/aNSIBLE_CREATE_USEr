@@ -18,3 +18,5 @@ type Client struct {
 	Client  *http.Client
 	base    string
 }
+
+// APIPayload is the response payload from Get
