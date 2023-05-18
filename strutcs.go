@@ -22,3 +22,4 @@ type Client struct {
 // APIPayload is the response payload from Get
 type APIPayload struct {
 	MetaData   Meta                       `json:"Meta Data"`
+	TimeSeries map[string]TimeSeriesDaily `json:"Time Series (Daily)"`
