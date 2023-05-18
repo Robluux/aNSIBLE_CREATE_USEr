@@ -20,3 +20,4 @@ type Client struct {
 }
 
 // APIPayload is the response payload from Get
+type APIPayload struct {
