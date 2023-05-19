@@ -24,3 +24,5 @@ type APIPayload struct {
 	MetaData   Meta                       `json:"Meta Data"`
 	TimeSeries map[string]TimeSeriesDaily `json:"Time Series (Daily)"`
 }
+
+// TimeSeriesDaily is the payload in the TimeSeries map
