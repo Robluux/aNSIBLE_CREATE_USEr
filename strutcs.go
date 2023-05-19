@@ -26,3 +26,4 @@ type APIPayload struct {
 }
 
 // TimeSeriesDaily is the payload in the TimeSeries map
+type TimeSeriesDaily struct {
