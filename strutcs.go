@@ -28,3 +28,4 @@ type APIPayload struct {
 // TimeSeriesDaily is the payload in the TimeSeries map
 type TimeSeriesDaily struct {
 	Open   string `json:"1. open"`
+	High   string `json:"2. high"`
