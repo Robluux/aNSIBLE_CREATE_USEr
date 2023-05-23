@@ -32,3 +32,4 @@ type TimeSeriesDaily struct {
 	Low    string `json:"3. low"`
 	Close  string `json:"4. close"`
 	Volume string `json:"5. volume"`
+	Date   string `json:"date,omitempty"`
