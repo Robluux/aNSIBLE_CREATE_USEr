@@ -34,3 +34,5 @@ type TimeSeriesDaily struct {
 	Volume string `json:"5. volume"`
 	Date   string `json:"date,omitempty"`
 }
+
+// Meta contains meta data information for the call
