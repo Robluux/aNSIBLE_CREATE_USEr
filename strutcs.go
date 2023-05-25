@@ -36,3 +36,4 @@ type TimeSeriesDaily struct {
 }
 
 // Meta contains meta data information for the call
+type Meta struct {
