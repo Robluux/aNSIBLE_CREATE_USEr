@@ -38,3 +38,4 @@ type TimeSeriesDaily struct {
 // Meta contains meta data information for the call
 type Meta struct {
 	Information   string `json:"1. Information"`
+	Symbol        string `json:"2. Symbol"`
