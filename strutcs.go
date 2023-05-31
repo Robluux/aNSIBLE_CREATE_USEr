@@ -43,3 +43,5 @@ type Meta struct {
 	OutputSize    string `json:"4. Output Size"`
 	TimeZone      string `json:"5. Time Zone"`
 }
+
+// ResponsePayload allows for more easily structured data from the API
