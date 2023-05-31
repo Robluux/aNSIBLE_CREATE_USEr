@@ -42,3 +42,4 @@ type Meta struct {
 	LastRefreshed string `json:"3. Last Refreshed"`
 	OutputSize    string `json:"4. Output Size"`
 	TimeZone      string `json:"5. Time Zone"`
+}
