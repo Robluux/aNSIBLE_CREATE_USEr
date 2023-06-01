@@ -48,3 +48,4 @@ type Meta struct {
 type ResponsePayload struct {
 	MetaData   Meta              `json:"Meta Data"`
 	TimeSeries []TimeSeriesDaily `json:"Time Series (Daily)"`
+}
