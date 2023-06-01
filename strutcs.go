@@ -45,3 +45,4 @@ type Meta struct {
 }
 
 // ResponsePayload allows for more easily structured data from the API
+type ResponsePayload struct {
