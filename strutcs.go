@@ -46,3 +46,5 @@ type Meta struct {
 
 // ResponsePayload allows for more easily structured data from the API
 type ResponsePayload struct {
+	MetaData   Meta              `json:"Meta Data"`
+	TimeSeries []TimeSeriesDaily `json:"Time Series (Daily)"`
